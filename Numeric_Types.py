@@ -14,4 +14,23 @@ y = complex(3,5)
 print(y)
 
 # Expression Operators
+# Chained comparisons
+
+X = 2
+Y = 4
+Z = 6
+
+X < Y < Z
+# Blir samma som nedan, fast snabbare att beräkna.
+X < Y and Y < Z
+
+1.1 + 2.2 == 3.3 # False, limited precisin (3.30000000000000003)
+int(1.1 + 2.2) == int(3.3) # True
+
+# Division
+
+
+
+
+
 
