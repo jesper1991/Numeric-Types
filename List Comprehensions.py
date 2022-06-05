@@ -37,7 +37,7 @@ for temp in celcius:
 
 print(fahrenheit)
 
-# Nested loops in list comprehension
+# Nested loops 
 
 mylist = []
 
