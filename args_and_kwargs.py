@@ -36,3 +36,26 @@ def myfunc(*args, **kwargs):
     print(f'I would like {args[0]} {kwargs["food"]}')
 
 myfunc(10,20,30, fruit = 'orange', food = 'eggs', animal = 'dog')
+
+# Functions # 9 Exercise
+def myfunc(*args):
+    mylist = []
+    for number in args:
+        if number % 2 == 0:
+            mylist.append(number) 
+    return mylist
+
+def myfunc(word):
+    result = ""
+    index = 0
+    for letter in word:
+        if index % 2 == 0:
+            result += letter.lower()
+        else:
+            result += letter.upper()
+        index += 1
+    return result
+
+myfunc("jesper") # jEsPeR
+
+
