@@ -60,4 +60,33 @@ myfunc("jesper") # jEsPeR
 
 
 
+# IGEN
+
+# args
+def myfunc(*args):
+    return sum(args) * 0.05
+
+myfunc(1*3) # = 3 * 0.05
+
+
+# kwargs, dict key value pairs
+
+def myfunc(**kwargs):
+    if 'fruit' in kwargs:
+        print(f'My fruit of choice is {kwargs["fruit"]}')
+    else:
+        print('I did not find any fruit here.')
+
+myfunc(veggie ='tomato')
+
+# *args = Tuple
+# **kwargs = Dictionary
+
+def myfunc(*args, **kwargs):
+
+    print(f'I would like {args[0]} {kwargs["food"]}')
+
+myfunc(10,20,30, fruit='orange', food = 'eggs', animal = 'dog')
+
+
 
