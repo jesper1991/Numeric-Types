@@ -84,3 +84,32 @@ old_macdonald('jesper')
 
 # MASTER YODA: Given a sentence, return a sentence with the words reversed
 
+def master_yoda(text):
+    wordlist = text.split()
+    reversed = wordlist[::-1]
+    return ' '.join(reversed) # Ersätt 
+
+
+master_yoda('home am I')
+# Join 
+
+# Given an integer n, return True if n is within 10 of either 100 or 200
+
+def almost_there(n):
+    return (abs(100-n) <= 10) or (abs(200-n) <= 10)
+
+
+almost_there(111)
+
+    
+def blackjack(a,b,c):
+    if sum([a,b,c]) <= 21:
+        return sum([a,b,c])
+    elif 11 in [a,b,c] and sum ([a,b,c]) <= 31:
+        return sum([a,b,c])-10
+    else:
+        return "BUST"
+
+
+
+

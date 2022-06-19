@@ -32,3 +32,41 @@ def return_result(a,b): # Value returned and can be stored.
 result = return_result(10,30)
 result
 
+
+def say_hello(name='Default'): # If argument not provided = name blir Default
+    print(f"Hello {name}")
+
+say_hello("Jesper")
+
+def add_num(num1,num2):
+    return num1 + num2
+
+result = add_num(2,3)
+
+def is_even(num1):
+    return num1 % 2 == 0 # Returns boolean True or False
+
+is_even(3)
+
+# RETURN TRUE IF ANY NUMBER IS EVEN INSIDE A LIST
+
+def even_list(num_list):
+    # Return all the even numbers in a list
+    # Placeholder variables
+    evens = []
+
+    for x in num_list:
+        if x % 2 == 0:
+            evens.append(x)
+            
+        else:
+            pass
+        
+    return evens # Först efter hela forloopen ska return false kallas. Beginner mistake.
+
+even_list([1,4,3,2,5,67]) # = [4, 2]
+
+
+
+    
+
