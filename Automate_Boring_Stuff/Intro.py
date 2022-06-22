@@ -55,3 +55,22 @@ while True:
     if response == 'exit':
         sys.exit()
     print(f'You typed {response}.')
+    break
+
+
+spam = 3
+if spam == 1:
+    print('Hello')
+elif spam == 2:
+    print('Howdy')
+else:
+    print('Greetings!')
+
+for x in range(1, 11):
+    print(x)
+
+x = 1
+while x < 11:
+    print(x)
+    x = x + 1
+
