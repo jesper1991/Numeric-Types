@@ -134,3 +134,7 @@ spam = ['Alice', 'alice', 'Bob', 'badgers']
 spam.sort(key=str.lower)
 spam
 
+# Reversing the Values in a List with the reverse() Method
+spam = ['Cat','dog','moose']
+spam.reverse()
+spam
