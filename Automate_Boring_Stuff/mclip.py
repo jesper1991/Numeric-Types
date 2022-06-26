@@ -1,3 +1,4 @@
+#! python3
 # A multi-clipboard program
 
 TEXT = {'agree': """Yes, I agree. That sounds fine to me.""",
