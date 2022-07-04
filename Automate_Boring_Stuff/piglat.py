@@ -51,3 +51,10 @@ for word in message.split():
 
 # Join all the words back together into a single string:
 print(' '.join(pigLatin))
+
+'Hello'.rjust(5,'*')
+
+stri = 'Hello'
+stri.rjust(10,'*').ljust(15,'*')
+stri.center(20,'*')
+
