@@ -65,3 +65,6 @@ p.exists() # True
 p.is_file() # False
 p.is_dir() # True
 
+p = Path('spam.txt')
+p.write_text('Hello, World!')
+p.read_text()
